@@ -1,0 +1,20 @@
+/* src/GameBoard.css */
+.board {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+  }
+  

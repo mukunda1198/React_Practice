@@ -1,25 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
 import ArrayWithDelete from './smallCode/ArrayWithDelete';
+import IndexDbProject from './IndexDb/IndexDbProject';
+import BlogModal from './modalCode/BlogModal';
+import BlogList from './modalCode/BlogList';
+import SearchComponent from './debounce/Debounce';
+import JiraApp from './jiraApp/jiraApp';
+import ReactBatching from './reactBatching/ReactBatching';
+import Game from './snakeLaddder/Game';
+import HomeModal from './createPortal/HomeModal';
+import Todolist from './toDoList/Todolist';
+import ImplemenationOfUsePrevious from './implementationofHook/implemenationOfUsePrevious';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <ArrayWithDelete/>
-      </header>
+     {/* <IndexDbProject/>
+      <ArrayWithDelete/> */}
+      {/* <BlogList/>
+      <SearchComponent/> */}
+      {/* <BlogModal/> */}
+      {/* <JiraApp/> */}
+      {/* <HomeModal/> */}
+      {/* <ReactBatching/> { /*  Memo uses */ } 
+     <ImplemenationOfUsePrevious/>
     </div>
   );
 }
