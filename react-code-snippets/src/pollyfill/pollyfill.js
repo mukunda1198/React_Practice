@@ -77,14 +77,12 @@ const Pollyfill = () => {
       //arg as key to store the result
       const KEY = JSON.stringify(arguments);
       //if the result is present for the given key return it
-      console.log("cacge", arguments);
       if (cache[KEY]) {
         return cache[KEY];
       }
 
       //else compute and store the result and return the result
       const evaluatedValue = fn(...arguments);
-      console.log("evaluatedValue", evaluatedValue);
       cache[KEY] = evaluatedValue;
       return evaluatedValue;
     };
