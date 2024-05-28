@@ -11,6 +11,7 @@ import Game from './snakeLaddder/Game';
 import HomeModal from './createPortal/HomeModal';
 import Todolist from './toDoList/Todolist';
 import ImplemenationOfUsePrevious from './implementationofHook/implemenationOfUsePrevious';
+import Pollyfill from './pollyfill/pollyfill';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       {/* <HomeModal/> */}
       {/* <ReactBatching/> { /*  Memo uses */ } 
      <ImplemenationOfUsePrevious/>
+     <Pollyfill/>
     </div>
   );
 }
